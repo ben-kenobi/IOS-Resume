@@ -191,7 +191,7 @@ progress::-moz-progress-value {
     margin: 0 auto;
     margin-top:20px;
     margin-bottom: 10px;
-    background-image:url('https://avatars0.githubusercontent.com/u/6505259?v=3&amp;s=460');
+    background-image:url('../image/portrait.jpeg');
     background-size: 120%;
     background-position:center;
     border-radius:50%;
