@@ -33,7 +33,11 @@ span {
     width: 200px;
     vertical-align: top;
 }
-
+.label-value2{
+	margin-left:12px;
+    width: 400px;
+    vertical-align: top;
+}
 .iconfont {
     font-family:"iconfont" !important;
     font-size:1.1em;font-style:normal;
@@ -134,10 +138,11 @@ p {
 }
 
 progress {
-    background-color: #f6f6f6;
+    //background-color: #f6f6f6;
     display: inline;
-    /*width: 195px;*/
+    //width: 240px;
     height: 1em;
+    margin-left:12px;
 
 }
 
@@ -183,30 +188,40 @@ progress::-moz-progress-value {
 }
 
 .left-label {
+	  color:#607d8b;
     display: inline-block;
     width: 120px;
+    font-size: 1.1em;
+    //font-weight: bold;
 }
 
 .portrait {
     margin: 0 auto;
     margin-top:20px;
     margin-bottom: 10px;
-    background-image:url('../image/portrait.jpeg');
-    background-size: 120%;
-    background-position:center;
-    border-radius:50%;
-    border:5px solid #607d8b;
+  //  background-image:url('../image/portrait.jpeg');
+   // background-size: 120%;
+   // background-position:center;
+     // border-radius:50%;
+   // border:5px solid #607d8b;
     width:160px;
     height:160px;
 }
 
 
+.portrait2 {
+    margin: 0 auto;
+    width:160px;
+    height:160px;
+     border-radius:50%;
+    border:5px solid #607d8b;
+}
 .container {
     position: relative;
     margin: 0 auto;
 
     width: 1200px;
-    height: 1760px;
+    height: 1730px;
     background-color: white;
 
 }
