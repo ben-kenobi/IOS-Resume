@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>简历生成器</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/remodal.css">
+    <link rel="stylesheet" href="static/css/remodal-default-theme.min.css">
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/remodal.min.js"></script>
+    <script src="static/js/script.js"></script>
+</head>
+
+<body>
+    <div class="container" id="cv">
+        <div class="side">
+            <div class="me">
+                <div class="portrait" ></div>
+                <div class="remodal remodal-img" data-remodal-id="portrait-modal">
+                    <h3>请输入图片URL地址：</h3>
+                    <br/>
+                    <input type="text" id="avatar-url">
+                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+                </div>
+                <h1 id="username" >杨峰</h1>
+                <h4 id="persona-tag" >IOS / Android / Java</h4>
+                <h4 id="persona-tag" >喜欢挑战，热爱编程</h4>
+            </div>
+            <div class="profile info-unit">
+                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">姓名</label><span class="label-value">杨峰</span></li>
+                    <li>
+                        <label class="left-label">学历</label><span class="label-value">本科</span></li>
+                    <li>
+                        <label class="left-label">毕业院校</label><span class="label-value">福建泉州仰恩大学</span></li>
+                    <li>
+                        <label class="left-label">毕业年份</label><span class="label-value">2010</span></li>
+                     <li>
+                        <label class="left-label">软件开发经验</label><span class="label-value">6年</span></li>
+                </ul>
+            </div>
+            <div class="stack info-unit">
+                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">求职意向</span></h2>
+                <hr>
+                 <ul class="stack-list">
+                    <li>
+                        <label class="left-label" >期望职位</label><span class="label-value" >IOS软件开发工程师</span></li>
+                    
+                    <li>
+                        <label class="left-label" >期望薪资</label><span class="label-value" >18 - 22 K</span></li>
+                    
+                    <li>
+                        <label class="left-label" >期望地点</label><span class="label-value" >深圳</span></li>
+                </ul>
+              
+            </div>
+            <div class="contact info-unit">
+                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">手机</label><span class="label-value">18960897429</span></li>
+                    <li>
+                        <label class="left-label">邮箱</label><span class="label-value">18960897429@139.com</span></li>
+                   
+                    <li>
+                        <label class="left-label">Github</label><span class="label-value">https://github.com/ben-kenobi</span></li>
+                </ul>
+            </div>
+            <div class="skill info-unit">
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">技能点</span></h2>
+                <hr>
+                <ul class="progress-list">
+                    <li>
+                        <label class="left-label" >Objective-C</label>
+                        <progress value="86.71874999999999" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label" >Swift 2 / 3</label>
+                        <progress value="85.9375" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label" >C</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">Android</label>
+                        <progress value="80.46875" max="100"></progress>
+                    </li>
+                <li>
+                        <label class="left-label" >Java</label>
+                        <progress value="66.40625" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">JavaScript</label>
+                        <progress value="50.78125" max="100"></progress>
+                   </li>
+                   <li>
+                        <label class="left-label" >数据库</label>
+                        <progress value="49.21874999999999" max="100"></progress>
+                    </li>
+                </ul>
+            </div>
+            
+
+            <div class="code info-unit">
+                <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title">个人微信</span></h2>
+                <hr>
+                <div class="weixin">
+                    <img src="static/image/weixin.png" alt="">
+
+                </div>
+            </div>
+            <div class="remodal remodal-img" data-remodal-id="weixin-modal">
+                <h3>请输入图片URL地址：</h3>
+                <br/>
+                <input type="text" id="weixin-url">
+                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+            </div>
+        </div>
+
+        <!--  Main Begin -->
+        <div class="main">
+            <div class="education info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">从业经历简述</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>从业早期 （2010-2012）</h3>
+                        <p>2010年大学毕业之后一直在福州从事软件开发方面工作，最早从事Java后台和Web前端的开发，参与过本土电商网站和企业内部办公应用的开发。
+                        </p>
+                    </li>
+                     <li>
+                        <h3>转型安卓 （2012-2014）</h3>
+                        <p>在从事Java开发期间，出于兴趣自学了Android开发，后担任公司安卓开发工程师一职，负责公司的本土电商项目的安卓版本APP开发工作。
+                        </p>
+                    </li>
+                     <li>
+                        <h3>选择IOS （2014-2016）</h3>
+                        <p>出于对苹果产品的喜爱，在从事安卓开发期间开始自学IOS开发，期间为能更加快速掌握IOS开发技巧，自费去北京参加过IOS课程培训，后在福建三维时空软件公司担任手机软件开发工程师。
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+
+
+
+            <div class="work info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">工作经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>福建三维时空软件公司 － 手机软件开发工程师 （2015.08-2016.11）</h3>
+                        <p>担任公司的手机软件高级开发工程师，独立负责GIS类的IOS和Android应用开发，参与需求探讨、界面设计、技术选型和实际开发工作，期间完成三个安卓与IOS应用开发。
+                        </p>
+                    </li>
+                    <li>
+                        <h3>深圳市易思博软件技术有限公司 － 软件工程师 （2014.03-2015.08）</h3>
+                        <p>在福建省移动公司华为外包项目组，负责移动公司客户服务平台软件（CSP）开发，期间积累了大量数据库操作经验，JS等Web前端开发经验及Java服务端的开发经验。
+                        </p>
+                    </li>
+                    <li>
+                        <h3>福建海康科技公司 － 软件开发工程师 （2011.08-2014.03）</h3>
+                        <p>负责电商类应用的安卓版本开发，及安卓App的后台服务器搭建及开发，同时参与电商类网站开发， 还参加公司微信公众号的开发。
+                        </p>
+                    </li>
+                </ul class="experience-list">
+            </div>
+
+
+
+            <div class="project info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">最近项目</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>福建省地震局辅助决策系统 － IOS/Android （2016.07-2016.11）</h3>
+                        <p>
+                            该项目为福建地震局相关人员使用的对地震灾情进行辅助决策的系统，移动端应用功能包括利用摄像头对信息进行采集，编辑，缓存，异步多任务上传，查看及用户管理。利用Arcgis地图SDK展示国家天地图信息，具有定位，地名地址查询，周边查询展示，兴趣点信息查看，地震专题图层展示等功能。
+                            <br/>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+
+
+
+            <div class="trophy info-unit">
+                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">专业技能</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>编程语言</h3>
+                        <p>
+                            * 熟练掌握Objective-C/C、Swift 2/3编程，对OOP编程思想有较深刻的理解。 </br>
+                            * 熟悉Runtime和OC的消息传递机制，掌握ARC、MRC内存管理机制。</br>
+                            * 能熟练使用MVC、MVVM模式进行项目架构，熟悉代理、单例、KVO、通知等设计模式，能熟练运用设计模式对项目进行优化，增强项目的扩展性和代码可读性。
+                        </p>
+                    </li> 
+                    <li>
+                        <h3>UI搭建</h3>
+                        <p>
+                        * 熟练使用UIKit框架、Quartz 2D绘图、CoreAnimation核心动画、转场动画等技巧。</br>
+                        * 娴熟使用Interface Builder布局或纯代码布局，精通AutoLayout自动布局。
+                        </p>
+                    </li> 
+                    <li>
+                        <h3>网络与多线程</h3>
+                        <p>
+                * 熟悉HTTP、TCP、UDP等网络传输协议，熟悉JSON、XML数据解析。</br>
+                * 掌握GCD、NSOperation、NSThread等多线程编程技术。</br>
+                * 能灵活运用大部分常用的第三方框架，熟悉百度地图、友盟、JPush等主流第三方SDK包的使用。
+
+          </p>
+                    </li>   
+                        <li>
+                        <h3>源代码管理与调试</h3>
+                        <p>* 使用Git、SVN和相关源代码管理工具进行代码管理用。</br>
+                        * 熟练运用Instruments动态分析工具进行跟踪内存泄漏、CPU占用等问题。</br>
+                        * 熟悉Apple开发者证书管理及应用打包上传Appstore等相关工作。
+          </p>
+                    </li>   
+                     </li>   
+                        <li>
+                        <h3>相关技能</h3>
+                        <p>* 能无障碍阅读纯英文的技术文档，熟悉国内外技术网站，灵活使用各类官方网站、IT技术问答网站或技术博客等渠道来获取知识和解决问题。</br>
+                        * 同时精通Android应用开发，Java后台开发，JS等Web前端技术、Oracle、SQLite等数据库技术。</br>
+                        * 了解React-native、PhoneGap等近期比较流行的混合开发技术。
+
+
+
+          </p>
+                    </li>                     
+            </div>
+
+
+
+            <div class="aboutme info-unit right-paragraph">
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">自我描述</span></h2>
+                <hr>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;喜欢挑战，学习能力强，对技术充满热情。                </br>
+
+                     &nbsp;&nbsp;&nbsp;&nbsp;喜欢与周围人探讨技术问题，关注技术相关信息和技术发展趋势。</br>
+                     &nbsp;&nbsp;&nbsp;&nbsp;工作积极，责任心强，乐观上进，善于利用业余时间不断提升专业技能与综合素质。   </br> 
+                     &nbsp;&nbsp;&nbsp;&nbsp;项目经验丰富，良好的编程习惯，独立开发完成多个完整的IOS及Android应用， 也对移动软件的混合开发模式有所了解，目前正在学习React-native中。
+                </p>
+            </div>
+            <div class="aboutme info-unit right-paragraph">
+                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">致谢</span></h2>
+                <hr>
+                                        <h3>&nbsp;&nbsp;&nbsp;&nbsp;感谢您在百忙之中查看我的简历，期待与您公事。</h3>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
