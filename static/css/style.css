@@ -40,7 +40,7 @@ span {
 }
 .label-value3{
 	margin-left:12px;
-    width: 480px;
+    width: 560px;
     vertical-align: top;
 }
 .iconfont {
@@ -225,14 +225,16 @@ progress::-moz-progress-value {
     width:160px;
     height:160px;
      border-radius:50%;
-    border:5px solid #607d8b;
+    //border:5px solid #607d8b;
+        padding:10px;
+
 }
 .container {
     position: relative;
     margin: 0 auto;
 
-    width: 1000px;
-    height: 2900px;
+    width: 1080px;
+    height: 3250px;
     background-color: white;
     -webkit-print-color-adjust: exact; 
 
@@ -244,15 +246,18 @@ progress::-moz-progress-value {
     height: 100%;
     background-color: whitesmoke !important;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 20px;  
+      margin-left: 760px;
+
 }
 
 .main {
     
     position: relative;;
-    margin-left: 320px;
+    margin-left: 0px;
     min-height: 100%;
     padding: 20px;
+    width:760px;
 
 }
 
